@@ -1,0 +1,3 @@
+alfabet = ascii(0-1413)
+zasz1 = alfabet(key na początku, bez powtarania)
+zOut = foreach text: index(zasz1)

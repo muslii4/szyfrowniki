@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>314</width>
+    <height>234</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Zaszyfrowany tekst:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="textIn"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="bWklej">
+     <property name="text">
+      <string>Wklej ze schowka</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Klucz szyfrowania:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="keyIn"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="bRozszyfruj">
+     <property name="text">
+      <string>Rozszyfruj</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lOut">
+     <property name="text">
+      <string>Tu pojawi się rozszyfrowana wiadomość.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="bKopiuj">
+     <property name="text">
+      <string>Kopiuj wiadomość</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
